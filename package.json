@@ -104,18 +104,6 @@
     "url": "https://github.com/trufflesuite/ganache-core"
   },
   "license": "MIT",
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.js": [
-      "prettier --write",
-      "eslint --fix --ignore-path .gitignore",
-      "git add"
-    ]
-  },
   "eslintConfig": {
     "root": true,
     "env": {
